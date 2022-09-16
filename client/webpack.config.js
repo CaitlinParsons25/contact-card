@@ -5,7 +5,7 @@ const {InjectManifest} = require('workbox-webpack-plugin');
 
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: './src/js/index.js',
     output: {
         filename: 'bundle.js',
